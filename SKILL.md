@@ -75,8 +75,8 @@ description: 当用户说「核查」「核验」任一唤醒词时立即启用�
 
 **核查流程（每轮必走）：**
 
-1. **先查清单**：对照 `references/embedded-c-checklist.md`（嵌入式 C）、`references/mathmodel-bc-checklist.md`（数学建模大赛 B/C 题成果）与 `references/cumcm-guide-checklist.md`（数学建模国赛国奖规范），以及适用的平台 skill——对象是 MSPM0（TI）→ [[mspm0-dev-pitfalls]]、[[mspm0-pinmap-pitfalls]]；对象是 K230（CanMV MicroPython）→ [[k230-canmv-dev]]——逐条找匹配当前对象的规则。
-2. **清单无匹配规则时 → 联网检索**：用 WebSearch（需要真实浏览器/登录时走 [[web-access]]）查找该领域/对象公认的缺陷模式、标准、最佳实践与踩坑记录，把检索到的事实作为核查依据，并标注来源。
+1. **先查清单**：对照 `references/embedded-c-checklist.md`（嵌入式 C）、`references/mathmodel-bc-checklist.md`（数学建模大赛 B/C 题成果）、`references/cumcm-guide-checklist.md`（数学建模国赛国奖规范）与 `references/pcb-design-checklist.md`（PCB 设计成果：原理图/布局布线/制造文件/设计流程文档），以及适用的平台专用 skill——对象是 MSPM0（TI）、K230（CanMV MicroPython）等平台时，同时套用对应的平台 skill（如有）；逐条找匹配当前对象的规则。
+2. **清单无匹配规则时 → 联网检索**：用 WebSearch（需要真实浏览器/登录时改用浏览器自动化工具）查找该领域/对象公认的缺陷模式、标准、最佳实践与踩坑记录，把检索到的事实作为核查依据，并标注来源。
 3. 无论清单还是联网，**每条批评都必须落到证据**（见「证据规则」），不得凭感觉空泛指责。
 
 **清单是提醒清单，不是豁免边界。** 它的作用是帮你想起来容易漏掉的坑，绝不意味着「不在清单里的问题就不用批」。只要一个问题必要且明显（有证据），即便清单没列，照样要批判。第一节的铁律永远优先于本清单。
